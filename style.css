@@ -1,0 +1,120 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+      width: 100vw; 
+      height: 100vh;
+      position: relative;
+
+}
+form{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-repeat: no-repeat;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    border: 3px solid black;
+    border-radius: 20px;
+    -webkit-transition: all 0.7s linear;
+    -o-transition: all 0.7s linear;
+    transition: all 0.7s linear;
+    -webkit-box-shadow: 30px 30px 40px rgb(126, 119, 119);
+            box-shadow: 30px 30px 40px rgb(126, 119, 119);
+
+     
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0 40px 0;
+    font-size: 35px;
+}
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    margin: 6px 0;
+    padding: 10px 15px;
+    border-radius: 5px 5px 0 0;
+}
+.button{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+div{
+    padding: 0 20px;
+}
+.forget{
+    
+    color: blue;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.login{
+    width: 100%;
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+::-webkit-input-placeholder{
+    font-size: 18px;
+}
+::-moz-placeholder{
+    font-size: 18px;
+}
+:-ms-input-placeholder{
+    font-size: 18px;
+}
+::-ms-input-placeholder{
+    font-size: 18px;
+}
+::placeholder{
+    font-size: 18px;
+}
+.reset{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+}
+.submit{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    color: green;
+    cursor: pointer;
+
+}

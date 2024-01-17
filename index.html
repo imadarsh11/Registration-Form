@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <h2>Registration form </h2>
+        <div>
+            <label for="firstname">Firstname</label>
+        <input type="text" id="fname" placeholder="enter your first name " required>
+        </div>
+        <div>
+        <label for="lastname">Lastname</label>
+        <input type="text" id="lname" placeholder="enter your last name" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="enter your email id" required >
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="8 digits" required>
+        </div>
+        <div class="forget">Forget password</div>
+        <div class="icon">
+
+        </div>
+        <div class="button">
+            <button class="reset" type="reset">Reset</button>
+            <button class="submit" type="submit" class="btn">Submit</button>
+
+        </div>
+        <div>
+            <button class="login"> already create account</button>
+        </div>
+    </form>
+    </div>
+    <script>
+    
+    let form = document.querySelector('form')
+    form.addEventListener('submit',(e)=>{
+        e.preventDefault;
+        alert("form is submit sucseesfully")
+    })
+    
+    
+    function openform() {
+        document.getElementById("my form").style.display="block";
+    }
+    
+    function closeform() {
+        document.getElementById("my form").style.display="none";
+    }
+    </script>
+</body>
+</html>
